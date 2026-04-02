@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="3ch3cqS0V5VgRKxR4eTK">
-    <mxGraphModel dx="808" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1131" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,11 +13,19 @@
         <mxCell id="zGytDY9QCUHiWEjlmHii-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;ONBOARD NEW PROJECT&lt;/div&gt;" vertex="1">
           <mxGeometry height="20" width="165" x="343" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="zGytDY9QCUHiWEjlmHii-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UPLOAD PROJECT DOCUMENTS TO AI SYSTEM (Plans, Specifications, Bid Docs, Addenda)" vertex="1">
-          <mxGeometry height="40" width="279.25" x="285.88" y="100" as="geometry" />
+        <mxCell id="FRk1_7F7vzpT4eLa2B-e-58" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="PRE-BID" vertex="1">
+          <mxGeometry height="370" width="520" x="165" y="100" as="geometry">
+            <mxRectangle height="30" width="90" x="165" y="100" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zGytDY9QCUHiWEjlmHii-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AI READS &amp;amp; EXTRACTS PROJECT INFORMATION (Project Name, Bid Due,&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="205" x="323" y="160" as="geometry" />
+        <mxCell id="zGytDY9QCUHiWEjlmHii-8" parent="FRk1_7F7vzpT4eLa2B-e-58" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;UPLOAD PROJECT DOCUMENTS TO AI SYSTEM&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Plans, Specifications, Bid Docs, Addenda)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="329.25" x="95" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zGytDY9QCUHiWEjlmHii-11" parent="FRk1_7F7vzpT4eLa2B-e-58" style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;AI READS &amp;amp; EXTRACTS PROJECT INFORMATION&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Project Name, Bid Due, Prebid Date/Location, Question Date/Location, Project Location, Liquidated Damages, Bid Contract Duration, Engineer/Architect)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="490" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FRk1_7F7vzpT4eLa2B-e-60" parent="FRk1_7F7vzpT4eLa2B-e-58" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="ESTIMATOR CONFIRMS AI INPUTS" vertex="1">
+          <mxGeometry height="20" width="235" x="142.12" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
